@@ -168,6 +168,29 @@ code-grading-system/
 └── tests/                 # Unit & integration tests
 ```
 
+## Claude Code Skills & Commands
+
+Custom skills and commands created for this project are located in `.claude/` folder.
+
+### Skills (9 total)
+
+**Feedback Styles:**
+- `trump-feedback.skill` - Donald Trump style feedback (90-100)
+- `shachar-feedback.skill` - Shachar Hason satirical style (70-90)
+- `dudi-feedback.skill` - Dudi Amsalem warm style (0-55)
+
+**Technical Expert Styles:**
+- `guido-python.skill` - Pythonic code principles (Guido van Rossum)
+- `david-beazley-concurrency.skill` - Threading & concurrency patterns
+- `wes-mckinney-data.skill` - Pandas & data processing
+- `uncle-bob-clean.skill` - Clean code & SOLID principles
+- `martin-fowler-architecture.skill` - Design patterns & architecture
+- `kenneth-reitz-api.skill` - Elegant API design
+
+### Commands (1 total)
+
+- `plan.md` - Software architect planning command for PRD creation
+
 ## License
 
 MIT License
